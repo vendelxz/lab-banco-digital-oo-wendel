@@ -1,6 +1,6 @@
 # Sistema Bancário Simples em Java
 
-Este projeto é um mini sistema bancário orientado a objetos em Java que simula operações básicas como depósito, saque, transferência e impressão de extrato.
+Este projeto é um mini sistema bancário orientado a objetos em Java que simula operações básicas como depósito, saque, transferência e impressão de extrato. Foi feito para fins de estudo e conclusão do Santander Bootcamp 2025 proporcionado pela DIO
 
 ## Funcionalidades
 
