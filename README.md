@@ -1,18 +1,23 @@
-# Criando um Banco Digital com Java e Orientação a Objetos
+# Sistema Bancário Simples em Java
 
-## 02/08/2021 - [Mentoria #1: Tire Suas Dúvidas Sobre Orientação a Objetos](https://www.youtube.com/watch?v=YS6ouOhkyNI)
+Este projeto é um mini sistema bancário orientado a objetos em Java que simula operações básicas como depósito, saque, transferência e impressão de extrato.
 
-Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário:
-“Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência (entre contas da própria instituição).”
+## Funcionalidades
 
-### Abstração
-Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais. Nesse contexto, objetos são abstrações de entidades existentes no domínio em questão.
+- Cadastro de clientes e contas (Conta Corrente e Conta Poupança).
+- Operações de depósito, saque e transferência entre contas.
+- Impressão de extrato detalhado para cada tipo de conta.
+- Listagem de clientes cadastrados no banco.
 
-### Encapsulamento
-Encapsular significa esconder a implementação dos objetos, criando assim interfaces de uso mais concisas e fáceis de usar/entender. O encapsulamento favorece principalmente dois aspectos de um sistema: a manutenção e a evolução.
+## Melhorias Aplicadas
 
-### Herança
-Permite que você defina uma classe filha que reutiliza (herda), estende ou modifica o comportamento de uma classe pai. A classe cujos membros são herdados é chamada de classe base. A classe que herda os membros da classe base é chamada de classe derivada.
+- Método para mostrar clientes centralizado na classe Banco, que gerencia todas as contas e clientes.
+- Inicialização segura da lista de contas no Banco para evitar erros.
+- Validações básicas para impedir saques e depósitos com valores inválidos ou maiores que o saldo disponível.
+- Encapsulamento dos atributos principais das contas (saldo, agência e número) com acesso controlado via getters.
+- Formatação aprimorada no método de impressão do extrato.
+- Estrutura mantida simples e organizada, garantindo fácil manutenção e compreensão do código.
 
-### Polimorfismo
-Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
+---
+
+**Autor: José Wendel**
